@@ -32,7 +32,7 @@ export default defineConfig((env) => {
     },
     plugins: setupPlugins(viteEnv),
     server: {
-      host: '0.0.0.0',
+      host: 'localhost',
       port: 8090,
       open: false,
       proxy: {
